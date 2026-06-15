@@ -1,5 +1,3 @@
-n=int(input("Enter the Multipicaton Table number: "))
-i=1
-while i<=10:
+n=int(input("Enter number: "))
+for i in range (1,11):
     print(n*i)
-    i+=1
